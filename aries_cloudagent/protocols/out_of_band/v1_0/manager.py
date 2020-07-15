@@ -149,8 +149,8 @@ class OutOfBandManager:
 
         handshake_protocols = []
         if include_handshake:
-            # handshake_protocols.append("https://didcomm.org/connections/1.0")
-            # handshake_protocols.append("https://didcomm.org/didexchange/1.0")
+            handshake_protocols.append("https://didcomm.org/connections/1.0")
+            handshake_protocols.append("https://didcomm.org/didexchange/1.0")
             handshake_protocols.append(
                 "did:sov:BzCbsNYhMrjHiqZDTUASHg;spec/connections/1.0/invitation"
             )
